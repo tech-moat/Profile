@@ -35,11 +35,18 @@
                                 <buttonConfiguration key="configuration" style="plain" title="プロフィール">
                                     <color key="baseForegroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="tapButton1" destination="BYZ-38-t0r" eventType="touchUpInside" id="gip-P4-q9r"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="profileCommentLabel" destination="Kpq-zi-UOE" id="aur-bq-M24"/>
+                        <outlet property="profileImageView" destination="m4u-bH-CQu" id="8f9-se-8lA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
